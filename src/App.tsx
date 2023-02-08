@@ -36,7 +36,7 @@ function App() {
   const verb = verbs[sentence[2]]
 
   const s = sentence[0] == 2 ? "s" : ""
-  const e = sentence[2] == 6 ? "e" : ""
+  const e = sentence[2] == 5 ? "e" : ""
   const english = `${pronoun[1]} ${verb[1]}${e}${s} (${tense[1]})`
   const swalihi = `${pronoun[0]}${tense[0]} ${verb[0]}`
 
